@@ -2,7 +2,6 @@
 
 **A custom 12-key BLE macro pad with OLED display and rotary encoder for ESP32**
 
----
 
 ## Overview
 
@@ -17,7 +16,7 @@ It features:
 
 This project is currently in development and the repository tracks design, firmware, and planned features.
 
----
+
 
 ## Key Features
 
@@ -27,18 +26,18 @@ This project is currently in development and the repository tracks design, firmw
 - **Rotary Encoder :** Default: volume control. With Fn: scroll, page up/down, or custom mappings.  
 - **Battery Powered :** Uses 1000 mAh Li-ion cell, planned runtime 20–30 hours with OLED and Fn LEDs.  
 
-**Why doesn't this use QMK? : ** Although QMK seems like THE gold standard for custom keyboard firmware, in my experiance it's wireless side is a bit less polished. That was my main reason to choose to custom program an ESP32 for this. I'm aware that there are better ways to do this than an ESP32, but I'm just working with hardware that's easiest to find for me.
+**Why doesn't this use QMK? :** Although QMK seems like *the* gold standard for custom keyboard firmware, in my experiance it's wireless side is a bit less polished. That was my main reason to choose to custom program an ESP32 for this. I'm aware that there are better ways to do this than an ESP32, but I'm just working with hardware that's easiest to find for me.
 
----
+
 
 ## Layout
 
-7 8 9
-4 5 6
-1 2 3
-0 Fn1 Fn2
+  7-8-9  
+  4-5-6  
+  1-2-3  
+  0-Fn1-Fn2
 
----
+
 
 ## Planned Wiring
 
@@ -48,7 +47,7 @@ This project is currently in development and the repository tracks design, firmw
 - **Rotary Encoder :** 2 GPIOs + optional push switch  
 - **Battery :** 1000 mAh Li-ion via TP4056 with protection  
 
----
+
 
 ## Project Roadmap
 
@@ -61,14 +60,14 @@ This project is currently in development and the repository tracks design, firmw
 - [ ] Physical assembly / case design  
 - [ ] GitHub documentation with photos and wiring diagrams  
 
----
+
 
 ## Libraries & Dependencies
 
 - [ESP32 BLE Keyboard](https://github.com/T-vK/ESP32-BLE-Keyboard)  
 - [Adafruit SSD1306](https://github.com/adafruit/Adafruit_SSD1306) (for OLED)
 
----
+
 
 ## License
 
