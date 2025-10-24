@@ -14,7 +14,6 @@ It features:
 - Indicator LEDs for Fn keys and others
 - Rotary encoder for volume or customizable functions
 - Multiple Fn layers for extra capabilities
-- Built on ESP32
 
 This project is currently in development and the repository tracks design, firmware, and planned features.
 
