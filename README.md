@@ -62,14 +62,7 @@ This project is currently in development and the repository tracks design, firmw
 
 
 
-## Libraries & Dependencies
+## Links
 
 - [ESP32 BLE Keyboard](https://github.com/T-vK/ESP32-BLE-Keyboard)  
 - [Adafruit SSD1306](https://github.com/adafruit/Adafruit_SSD1306) (for OLED)
-
-
-
-## License
-
-MIT License © 2025 Chenuka W
-
