@@ -1,6 +1,6 @@
 # SLVI K1 ArcClaw
 
-**A custom 12-key BLE macro pad with OLED display and rotary encoder for ESP32**
+**SLVI K1 ArcClaw is a custom 12-key BLE macro pad with OLED display and rotary encoder for ESP32**
 
 
 ## Overview
